@@ -25,10 +25,12 @@ int main(){
 
     int suma = matematicas::suma(1, 2);
     int resta = matematicas::resta(20, 13);
-
+    int multiplicacion = matematicas::multiplicacion(2, 5);
 
     std::cout << "La suma es: " << suma << std::endl;
     std::cout << "La resta es: " << resta << std::endl;
+    std::cout << "La multiplicacion es: " << multiplicacion << std::endl;
+    
 
     return 0;
 }
