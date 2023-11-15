@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Ejercicio2.dir/Ciruculo.cpp.obj"
-  "CMakeFiles/Ejercicio2.dir/Ciruculo.cpp.obj.d"
-  "CMakeFiles/Ejercicio2.dir/Triangulo.cpp.obj"
-  "CMakeFiles/Ejercicio2.dir/Triangulo.cpp.obj.d"
+  "CMakeFiles/Ejercicio2.dir/main.cpp.obj"
+  "CMakeFiles/Ejercicio2.dir/main.cpp.obj.d"
   "Ejercicio2.exe"
   "Ejercicio2.exe.manifest"
   "Ejercicio2.pdb"

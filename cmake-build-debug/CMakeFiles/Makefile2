@@ -62,7 +62,6 @@ CMAKE_BINARY_DIR = C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmak
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Ejercicios_STL.dir/all
 all: CMakeFiles/Ejercicio1.dir/all
 all: CMakeFiles/Ejercicio2.dir/all
 .PHONY : all
@@ -72,36 +71,9 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Ejercicios_STL.dir/clean
 clean: CMakeFiles/Ejercicio1.dir/clean
 clean: CMakeFiles/Ejercicio2.dir/clean
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Ejercicios_STL.dir
-
-# All Build rule for target.
-CMakeFiles/Ejercicios_STL.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicios_STL.dir\build.make CMakeFiles/Ejercicios_STL.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicios_STL.dir\build.make CMakeFiles/Ejercicios_STL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target Ejercicios_STL"
-.PHONY : CMakeFiles/Ejercicios_STL.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Ejercicios_STL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Ejercicios_STL.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Ejercicios_STL.dir/rule
-
-# Convenience name for target.
-Ejercicios_STL: CMakeFiles/Ejercicios_STL.dir/rule
-.PHONY : Ejercicios_STL
-
-# clean rule for target.
-CMakeFiles/Ejercicios_STL.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicios_STL.dir\build.make CMakeFiles/Ejercicios_STL.dir/clean
-.PHONY : CMakeFiles/Ejercicios_STL.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Ejercicio1.dir
@@ -136,12 +108,12 @@ CMakeFiles/Ejercicio1.dir/clean:
 CMakeFiles/Ejercicio2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target Ejercicio2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Ejercicio2"
 .PHONY : CMakeFiles/Ejercicio2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Ejercicio2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Ejercicio2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Ejercicio2.dir/rule

@@ -116,19 +116,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Ejercicios_STL
-
-# Build rule for target.
-Ejercicios_STL: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicios_STL
-.PHONY : Ejercicios_STL
-
-# fast build rule for target.
-Ejercicios_STL/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicios_STL.dir\build.make CMakeFiles/Ejercicios_STL.dir/build
-.PHONY : Ejercicios_STL/fast
-
-#=============================================================================
 # Target rules for targets named Ejercicio1
 
 # Build rule for target.
@@ -153,54 +140,6 @@ Ejercicio2: cmake_check_build_system
 Ejercicio2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/build
 .PHONY : Ejercicio2/fast
-
-Ciruculo.obj: Ciruculo.cpp.obj
-.PHONY : Ciruculo.obj
-
-# target to build an object file
-Ciruculo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Ciruculo.cpp.obj
-.PHONY : Ciruculo.cpp.obj
-
-Ciruculo.i: Ciruculo.cpp.i
-.PHONY : Ciruculo.i
-
-# target to preprocess a source file
-Ciruculo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Ciruculo.cpp.i
-.PHONY : Ciruculo.cpp.i
-
-Ciruculo.s: Ciruculo.cpp.s
-.PHONY : Ciruculo.s
-
-# target to generate assembly for a file
-Ciruculo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Ciruculo.cpp.s
-.PHONY : Ciruculo.cpp.s
-
-Triangulo.obj: Triangulo.cpp.obj
-.PHONY : Triangulo.obj
-
-# target to build an object file
-Triangulo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Triangulo.cpp.obj
-.PHONY : Triangulo.cpp.obj
-
-Triangulo.i: Triangulo.cpp.i
-.PHONY : Triangulo.i
-
-# target to preprocess a source file
-Triangulo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Triangulo.cpp.i
-.PHONY : Triangulo.cpp.i
-
-Triangulo.s: Triangulo.cpp.s
-.PHONY : Triangulo.s
-
-# target to generate assembly for a file
-Triangulo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Triangulo.cpp.s
-.PHONY : Triangulo.cpp.s
 
 Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.obj: Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj
 .PHONY : Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.obj
@@ -231,7 +170,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicios_STL.dir\build.make CMakeFiles/Ejercicios_STL.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -239,7 +178,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicios_STL.dir\build.make CMakeFiles/Ejercicios_STL.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -247,7 +186,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicios_STL.dir\build.make CMakeFiles/Ejercicios_STL.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -260,13 +199,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Ejercicio1
 	@echo ... Ejercicio2
-	@echo ... Ejercicios_STL
-	@echo ... Ciruculo.obj
-	@echo ... Ciruculo.i
-	@echo ... Ciruculo.s
-	@echo ... Triangulo.obj
-	@echo ... Triangulo.i
-	@echo ... Triangulo.s
 	@echo ... Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.obj
 	@echo ... Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.i
 	@echo ... Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.s
