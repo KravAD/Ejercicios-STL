@@ -15,7 +15,7 @@ namespace matematicas{
         return a / b;
     }
     int exponente(int a, int b){
-        return a^b;
+        return pow(a, b);
     }
     int raiz(int a){
         return sqrt(a);
@@ -27,11 +27,14 @@ int main(){
     int resta = matematicas::resta(20, 13);
     int multiplicacion = matematicas::multiplicacion(2, 5);
     int division = matematicas::division(6, 2);
+    int exponente = matematicas::exponente(2, 3);
+    int raiz = matematicas::raiz(4);
 
     std::cout << "La suma es: " << suma << std::endl;
     std::cout << "La resta es: " << resta << std::endl;
     std::cout << "La multiplicacion es: " << multiplicacion << std::endl;
     std::cout << "La division es: " << division << std::endl;
-
+std::cout << "La operacion exponencial es: " << exponente << std::endl;
+std::cout << "La operacion radical es: " << raiz << std::endl;
     return 0;
 }
