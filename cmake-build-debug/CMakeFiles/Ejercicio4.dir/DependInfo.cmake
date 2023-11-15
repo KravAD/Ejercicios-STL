@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Relación entre clase y espacio de nombres/circulo.cpp" "CMakeFiles/Ejercicio3.dir/Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.obj" "gcc" "CMakeFiles/Ejercicio3.dir/Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.obj.d"
+  "C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Ciencia.cpp" "CMakeFiles/Ejercicio4.dir/Ciencia.cpp.obj" "gcc" "CMakeFiles/Ejercicio4.dir/Ciencia.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

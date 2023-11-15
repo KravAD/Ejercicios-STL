@@ -154,6 +154,43 @@ Ejercicio3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3.dir\build.make CMakeFiles/Ejercicio3.dir/build
 .PHONY : Ejercicio3/fast
 
+#=============================================================================
+# Target rules for targets named Ejercicio4
+
+# Build rule for target.
+Ejercicio4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio4
+.PHONY : Ejercicio4
+
+# fast build rule for target.
+Ejercicio4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/build
+.PHONY : Ejercicio4/fast
+
+Ciencia.obj: Ciencia.cpp.obj
+.PHONY : Ciencia.obj
+
+# target to build an object file
+Ciencia.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/Ciencia.cpp.obj
+.PHONY : Ciencia.cpp.obj
+
+Ciencia.i: Ciencia.cpp.i
+.PHONY : Ciencia.i
+
+# target to preprocess a source file
+Ciencia.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/Ciencia.cpp.i
+.PHONY : Ciencia.cpp.i
+
+Ciencia.s: Ciencia.cpp.s
+.PHONY : Ciencia.s
+
+# target to generate assembly for a file
+Ciencia.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/Ciencia.cpp.s
+.PHONY : Ciencia.cpp.s
+
 Espacio_de_nombres_repartido_entre_diferentes_archivos/main.obj: Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.obj
 .PHONY : Espacio_de_nombres_repartido_entre_diferentes_archivos/main.obj
 
@@ -177,6 +214,30 @@ Espacio_de_nombres_repartido_entre_diferentes_archivos/main.s: Espacio_de_nombre
 Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.s
 .PHONY : Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.s
+
+Relación_entre_clase_y_espacio_de_nombres/circulo.obj: Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.obj
+.PHONY : Relación_entre_clase_y_espacio_de_nombres/circulo.obj
+
+# target to build an object file
+Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3.dir\build.make CMakeFiles/Ejercicio3.dir/Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.obj
+.PHONY : Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.obj
+
+Relación_entre_clase_y_espacio_de_nombres/circulo.i: Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.i
+.PHONY : Relación_entre_clase_y_espacio_de_nombres/circulo.i
+
+# target to preprocess a source file
+Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3.dir\build.make CMakeFiles/Ejercicio3.dir/Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.i
+.PHONY : Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.i
+
+Relación_entre_clase_y_espacio_de_nombres/circulo.s: Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.s
+.PHONY : Relación_entre_clase_y_espacio_de_nombres/circulo.s
+
+# target to generate assembly for a file
+Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3.dir\build.make CMakeFiles/Ejercicio3.dir/Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.s
+.PHONY : Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.s
 
 Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.obj: Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj
 .PHONY : Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.obj
@@ -202,30 +263,6 @@ Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio1.dir\build.make CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.s
 .PHONY : Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.s
 
-circulo.obj: circulo.cpp.obj
-.PHONY : circulo.obj
-
-# target to build an object file
-circulo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3.dir\build.make CMakeFiles/Ejercicio3.dir/circulo.cpp.obj
-.PHONY : circulo.cpp.obj
-
-circulo.i: circulo.cpp.i
-.PHONY : circulo.i
-
-# target to preprocess a source file
-circulo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3.dir\build.make CMakeFiles/Ejercicio3.dir/circulo.cpp.i
-.PHONY : circulo.cpp.i
-
-circulo.s: circulo.cpp.s
-.PHONY : circulo.s
-
-# target to generate assembly for a file
-circulo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3.dir\build.make CMakeFiles/Ejercicio3.dir/circulo.cpp.s
-.PHONY : circulo.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -237,15 +274,19 @@ help:
 	@echo ... Ejercicio1
 	@echo ... Ejercicio2
 	@echo ... Ejercicio3
+	@echo ... Ejercicio4
+	@echo ... Ciencia.obj
+	@echo ... Ciencia.i
+	@echo ... Ciencia.s
 	@echo ... Espacio_de_nombres_repartido_entre_diferentes_archivos/main.obj
 	@echo ... Espacio_de_nombres_repartido_entre_diferentes_archivos/main.i
 	@echo ... Espacio_de_nombres_repartido_entre_diferentes_archivos/main.s
+	@echo ... Relación_entre_clase_y_espacio_de_nombres/circulo.obj
+	@echo ... Relación_entre_clase_y_espacio_de_nombres/circulo.i
+	@echo ... Relación_entre_clase_y_espacio_de_nombres/circulo.s
 	@echo ... Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.obj
 	@echo ... Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.i
 	@echo ... Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.s
-	@echo ... circulo.obj
-	@echo ... circulo.i
-	@echo ... circulo.s
 .PHONY : help
 
 

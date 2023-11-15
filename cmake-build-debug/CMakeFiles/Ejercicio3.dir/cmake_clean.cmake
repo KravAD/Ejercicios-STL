@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Ejercicio3.dir/circulo.cpp.obj"
-  "CMakeFiles/Ejercicio3.dir/circulo.cpp.obj.d"
+  "CMakeFiles/Ejercicio3.dir/Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.obj"
+  "CMakeFiles/Ejercicio3.dir/Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.obj.d"
   "Ejercicio3.exe"
   "Ejercicio3.exe.manifest"
   "Ejercicio3.pdb"
