@@ -24,8 +24,11 @@ namespace matematicas{
 int main(){
 
     int suma = matematicas::suma(1, 2);
-    
+    int resta = matematicas::resta(20, 13);
 
-    std::cout << suma << std::endl;
+
+    std::cout << "La suma es: " << suma << std::endl;
+    std::cout << "La resta es: " << resta << std::endl;
+
     return 0;
 }
