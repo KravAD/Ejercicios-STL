@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Ejercicio1.exe"
+			"path" : "Ejercicio2.exe"
 		},
 		{
-			"path" : "Ejercicio1.pdb"
+			"path" : "Ejercicio2.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -52,11 +52,12 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
-	"id" : "Ejercicio1::@6890427a1f51a3e7e1df",
+	"id" : "Ejercicio2::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +77,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Ejercicio1",
-	"nameOnDisk" : "Ejercicio1.exe",
+	"name" : "Ejercicio2",
+	"nameOnDisk" : "Ejercicio2.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -89,7 +90,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -98,7 +100,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Ejercicio1.cpp",
+			"path" : "Triangulo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Ciruculo.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

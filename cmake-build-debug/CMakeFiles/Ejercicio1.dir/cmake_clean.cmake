@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj"
-  "CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj.d"
+  "CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj"
+  "CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj.d"
   "Ejercicio1.exe"
   "Ejercicio1.exe.manifest"
   "Ejercicio1.pdb"

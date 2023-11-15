@@ -141,29 +141,90 @@ Ejercicio1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio1.dir\build.make CMakeFiles/Ejercicio1.dir/build
 .PHONY : Ejercicio1/fast
 
-Ejercicio1.obj: Ejercicio1.cpp.obj
-.PHONY : Ejercicio1.obj
+#=============================================================================
+# Target rules for targets named Ejercicio2
+
+# Build rule for target.
+Ejercicio2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio2
+.PHONY : Ejercicio2
+
+# fast build rule for target.
+Ejercicio2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/build
+.PHONY : Ejercicio2/fast
+
+Ciruculo.obj: Ciruculo.cpp.obj
+.PHONY : Ciruculo.obj
 
 # target to build an object file
-Ejercicio1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio1.dir\build.make CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj
-.PHONY : Ejercicio1.cpp.obj
+Ciruculo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Ciruculo.cpp.obj
+.PHONY : Ciruculo.cpp.obj
 
-Ejercicio1.i: Ejercicio1.cpp.i
-.PHONY : Ejercicio1.i
+Ciruculo.i: Ciruculo.cpp.i
+.PHONY : Ciruculo.i
 
 # target to preprocess a source file
-Ejercicio1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio1.dir\build.make CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.i
-.PHONY : Ejercicio1.cpp.i
+Ciruculo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Ciruculo.cpp.i
+.PHONY : Ciruculo.cpp.i
 
-Ejercicio1.s: Ejercicio1.cpp.s
-.PHONY : Ejercicio1.s
+Ciruculo.s: Ciruculo.cpp.s
+.PHONY : Ciruculo.s
 
 # target to generate assembly for a file
-Ejercicio1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio1.dir\build.make CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.s
-.PHONY : Ejercicio1.cpp.s
+Ciruculo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Ciruculo.cpp.s
+.PHONY : Ciruculo.cpp.s
+
+Triangulo.obj: Triangulo.cpp.obj
+.PHONY : Triangulo.obj
+
+# target to build an object file
+Triangulo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Triangulo.cpp.obj
+.PHONY : Triangulo.cpp.obj
+
+Triangulo.i: Triangulo.cpp.i
+.PHONY : Triangulo.i
+
+# target to preprocess a source file
+Triangulo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Triangulo.cpp.i
+.PHONY : Triangulo.cpp.i
+
+Triangulo.s: Triangulo.cpp.s
+.PHONY : Triangulo.s
+
+# target to generate assembly for a file
+Triangulo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Triangulo.cpp.s
+.PHONY : Triangulo.cpp.s
+
+Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.obj: Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj
+.PHONY : Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.obj
+
+# target to build an object file
+Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio1.dir\build.make CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj
+.PHONY : Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj
+
+Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.i: Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.i
+.PHONY : Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.i
+
+# target to preprocess a source file
+Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio1.dir\build.make CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.i
+.PHONY : Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.i
+
+Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.s: Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.s
+.PHONY : Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.s
+
+# target to generate assembly for a file
+Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio1.dir\build.make CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.s
+.PHONY : Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -198,10 +259,17 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Ejercicio1
+	@echo ... Ejercicio2
 	@echo ... Ejercicios_STL
-	@echo ... Ejercicio1.obj
-	@echo ... Ejercicio1.i
-	@echo ... Ejercicio1.s
+	@echo ... Ciruculo.obj
+	@echo ... Ciruculo.i
+	@echo ... Ciruculo.s
+	@echo ... Triangulo.obj
+	@echo ... Triangulo.i
+	@echo ... Triangulo.s
+	@echo ... Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.obj
+	@echo ... Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.i
+	@echo ... Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
