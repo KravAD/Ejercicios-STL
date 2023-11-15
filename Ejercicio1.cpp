@@ -21,3 +21,11 @@ namespace matematicas{
         return sqrt(a);
     }
 }
+int main(){
+
+    int suma = matematicas::suma(1, 2);
+    
+
+    std::cout << suma << std::endl;
+    return 0;
+}
