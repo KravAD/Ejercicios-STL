@@ -7,3 +7,7 @@ namespace Ciencia {
         }
     }
 }
+int main(){
+    std::cout << "Energia: " << Ciencia::Fisica::calcularEnergia(50) << std::endl;
+    return 0;
+}
