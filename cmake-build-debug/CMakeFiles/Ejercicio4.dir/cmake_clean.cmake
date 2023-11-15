@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Ejercicio4.dir/Ciencia.cpp.obj"
-  "CMakeFiles/Ejercicio4.dir/Ciencia.cpp.obj.d"
+  "CMakeFiles/Ejercicio4.dir/Declaración_de_subespacios_de_nombres/Ciencia.cpp.obj"
+  "CMakeFiles/Ejercicio4.dir/Declaración_de_subespacios_de_nombres/Ciencia.cpp.obj.d"
   "Ejercicio4.exe"
   "Ejercicio4.exe.manifest"
   "Ejercicio4.pdb"

@@ -167,29 +167,42 @@ Ejercicio4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/build
 .PHONY : Ejercicio4/fast
 
-Ciencia.obj: Ciencia.cpp.obj
-.PHONY : Ciencia.obj
+#=============================================================================
+# Target rules for targets named Ejercicio5
+
+# Build rule for target.
+Ejercicio5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio5
+.PHONY : Ejercicio5
+
+# fast build rule for target.
+Ejercicio5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio5.dir\build.make CMakeFiles/Ejercicio5.dir/build
+.PHONY : Ejercicio5/fast
+
+Declaración_de_subespacios_de_nombres/Ciencia.obj: Declaración_de_subespacios_de_nombres/Ciencia.cpp.obj
+.PHONY : Declaración_de_subespacios_de_nombres/Ciencia.obj
 
 # target to build an object file
-Ciencia.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/Ciencia.cpp.obj
-.PHONY : Ciencia.cpp.obj
+Declaración_de_subespacios_de_nombres/Ciencia.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/Declaración_de_subespacios_de_nombres/Ciencia.cpp.obj
+.PHONY : Declaración_de_subespacios_de_nombres/Ciencia.cpp.obj
 
-Ciencia.i: Ciencia.cpp.i
-.PHONY : Ciencia.i
+Declaración_de_subespacios_de_nombres/Ciencia.i: Declaración_de_subespacios_de_nombres/Ciencia.cpp.i
+.PHONY : Declaración_de_subespacios_de_nombres/Ciencia.i
 
 # target to preprocess a source file
-Ciencia.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/Ciencia.cpp.i
-.PHONY : Ciencia.cpp.i
+Declaración_de_subespacios_de_nombres/Ciencia.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/Declaración_de_subespacios_de_nombres/Ciencia.cpp.i
+.PHONY : Declaración_de_subespacios_de_nombres/Ciencia.cpp.i
 
-Ciencia.s: Ciencia.cpp.s
-.PHONY : Ciencia.s
+Declaración_de_subespacios_de_nombres/Ciencia.s: Declaración_de_subespacios_de_nombres/Ciencia.cpp.s
+.PHONY : Declaración_de_subespacios_de_nombres/Ciencia.s
 
 # target to generate assembly for a file
-Ciencia.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/Ciencia.cpp.s
-.PHONY : Ciencia.cpp.s
+Declaración_de_subespacios_de_nombres/Ciencia.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/Declaración_de_subespacios_de_nombres/Ciencia.cpp.s
+.PHONY : Declaración_de_subespacios_de_nombres/Ciencia.cpp.s
 
 Espacio_de_nombres_repartido_entre_diferentes_archivos/main.obj: Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.obj
 .PHONY : Espacio_de_nombres_repartido_entre_diferentes_archivos/main.obj
@@ -214,6 +227,30 @@ Espacio_de_nombres_repartido_entre_diferentes_archivos/main.s: Espacio_de_nombre
 Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.s
 .PHONY : Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.s
+
+PresentacionSTL.obj: PresentacionSTL.cpp.obj
+.PHONY : PresentacionSTL.obj
+
+# target to build an object file
+PresentacionSTL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio5.dir\build.make CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.obj
+.PHONY : PresentacionSTL.cpp.obj
+
+PresentacionSTL.i: PresentacionSTL.cpp.i
+.PHONY : PresentacionSTL.i
+
+# target to preprocess a source file
+PresentacionSTL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio5.dir\build.make CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.i
+.PHONY : PresentacionSTL.cpp.i
+
+PresentacionSTL.s: PresentacionSTL.cpp.s
+.PHONY : PresentacionSTL.s
+
+# target to generate assembly for a file
+PresentacionSTL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio5.dir\build.make CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.s
+.PHONY : PresentacionSTL.cpp.s
 
 Relación_entre_clase_y_espacio_de_nombres/circulo.obj: Relación_entre_clase_y_espacio_de_nombres/circulo.cpp.obj
 .PHONY : Relación_entre_clase_y_espacio_de_nombres/circulo.obj
@@ -275,12 +312,16 @@ help:
 	@echo ... Ejercicio2
 	@echo ... Ejercicio3
 	@echo ... Ejercicio4
-	@echo ... Ciencia.obj
-	@echo ... Ciencia.i
-	@echo ... Ciencia.s
+	@echo ... Ejercicio5
+	@echo ... Declaración_de_subespacios_de_nombres/Ciencia.obj
+	@echo ... Declaración_de_subespacios_de_nombres/Ciencia.i
+	@echo ... Declaración_de_subespacios_de_nombres/Ciencia.s
 	@echo ... Espacio_de_nombres_repartido_entre_diferentes_archivos/main.obj
 	@echo ... Espacio_de_nombres_repartido_entre_diferentes_archivos/main.i
 	@echo ... Espacio_de_nombres_repartido_entre_diferentes_archivos/main.s
+	@echo ... PresentacionSTL.obj
+	@echo ... PresentacionSTL.i
+	@echo ... PresentacionSTL.s
 	@echo ... Relación_entre_clase_y_espacio_de_nombres/circulo.obj
 	@echo ... Relación_entre_clase_y_espacio_de_nombres/circulo.i
 	@echo ... Relación_entre_clase_y_espacio_de_nombres/circulo.s
