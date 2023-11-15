@@ -141,6 +141,43 @@ Ejercicio2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/build
 .PHONY : Ejercicio2/fast
 
+#=============================================================================
+# Target rules for targets named Ejercicio3
+
+# Build rule for target.
+Ejercicio3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio3
+.PHONY : Ejercicio3
+
+# fast build rule for target.
+Ejercicio3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3.dir\build.make CMakeFiles/Ejercicio3.dir/build
+.PHONY : Ejercicio3/fast
+
+Espacio_de_nombres_repartido_entre_diferentes_archivos/main.obj: Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.obj
+.PHONY : Espacio_de_nombres_repartido_entre_diferentes_archivos/main.obj
+
+# target to build an object file
+Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.obj
+.PHONY : Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.obj
+
+Espacio_de_nombres_repartido_entre_diferentes_archivos/main.i: Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.i
+.PHONY : Espacio_de_nombres_repartido_entre_diferentes_archivos/main.i
+
+# target to preprocess a source file
+Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.i
+.PHONY : Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.i
+
+Espacio_de_nombres_repartido_entre_diferentes_archivos/main.s: Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.s
+.PHONY : Espacio_de_nombres_repartido_entre_diferentes_archivos/main.s
+
+# target to generate assembly for a file
+Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.s
+.PHONY : Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.s
+
 Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.obj: Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj
 .PHONY : Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.obj
 
@@ -165,29 +202,29 @@ Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio1.dir\build.make CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.s
 .PHONY : Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+circulo.obj: circulo.cpp.obj
+.PHONY : circulo.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+circulo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3.dir\build.make CMakeFiles/Ejercicio3.dir/circulo.cpp.obj
+.PHONY : circulo.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+circulo.i: circulo.cpp.i
+.PHONY : circulo.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/main.cpp.i
-.PHONY : main.cpp.i
+circulo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3.dir\build.make CMakeFiles/Ejercicio3.dir/circulo.cpp.i
+.PHONY : circulo.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+circulo.s: circulo.cpp.s
+.PHONY : circulo.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/main.cpp.s
-.PHONY : main.cpp.s
+circulo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3.dir\build.make CMakeFiles/Ejercicio3.dir/circulo.cpp.s
+.PHONY : circulo.cpp.s
 
 # Help Target
 help:
@@ -199,12 +236,16 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Ejercicio1
 	@echo ... Ejercicio2
+	@echo ... Ejercicio3
+	@echo ... Espacio_de_nombres_repartido_entre_diferentes_archivos/main.obj
+	@echo ... Espacio_de_nombres_repartido_entre_diferentes_archivos/main.i
+	@echo ... Espacio_de_nombres_repartido_entre_diferentes_archivos/main.s
 	@echo ... Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.obj
 	@echo ... Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.i
 	@echo ... Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... circulo.obj
+	@echo ... circulo.i
+	@echo ... circulo.s
 .PHONY : help
 
 
