@@ -68,28 +68,28 @@ include CMakeFiles/Ejercicio4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ejercicio4.dir/flags.make
 
-CMakeFiles/Ejercicio4.dir/Ciencia.cpp.obj: CMakeFiles/Ejercicio4.dir/flags.make
-CMakeFiles/Ejercicio4.dir/Ciencia.cpp.obj: C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Ciencia.cpp
-CMakeFiles/Ejercicio4.dir/Ciencia.cpp.obj: CMakeFiles/Ejercicio4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio4.dir/Ciencia.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ejercicio4.dir/Ciencia.cpp.obj -MF CMakeFiles\Ejercicio4.dir\Ciencia.cpp.obj.d -o CMakeFiles\Ejercicio4.dir\Ciencia.cpp.obj -c C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Ciencia.cpp
+CMakeFiles/Ejercicio4.dir/Ejercicio4.cpp.obj: CMakeFiles/Ejercicio4.dir/flags.make
+CMakeFiles/Ejercicio4.dir/Ejercicio4.cpp.obj: C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Ejercicio4.cpp
+CMakeFiles/Ejercicio4.dir/Ejercicio4.cpp.obj: CMakeFiles/Ejercicio4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio4.dir/Ejercicio4.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ejercicio4.dir/Ejercicio4.cpp.obj -MF CMakeFiles\Ejercicio4.dir\Ejercicio4.cpp.obj.d -o CMakeFiles\Ejercicio4.dir\Ejercicio4.cpp.obj -c C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Ejercicio4.cpp
 
-CMakeFiles/Ejercicio4.dir/Ciencia.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ejercicio4.dir/Ciencia.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Ciencia.cpp > CMakeFiles\Ejercicio4.dir\Ciencia.cpp.i
+CMakeFiles/Ejercicio4.dir/Ejercicio4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ejercicio4.dir/Ejercicio4.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Ejercicio4.cpp > CMakeFiles\Ejercicio4.dir\Ejercicio4.cpp.i
 
-CMakeFiles/Ejercicio4.dir/Ciencia.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ejercicio4.dir/Ciencia.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Ciencia.cpp -o CMakeFiles\Ejercicio4.dir\Ciencia.cpp.s
+CMakeFiles/Ejercicio4.dir/Ejercicio4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ejercicio4.dir/Ejercicio4.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Ejercicio4.cpp -o CMakeFiles\Ejercicio4.dir\Ejercicio4.cpp.s
 
 # Object files for target Ejercicio4
 Ejercicio4_OBJECTS = \
-"CMakeFiles/Ejercicio4.dir/Ciencia.cpp.obj"
+"CMakeFiles/Ejercicio4.dir/Ejercicio4.cpp.obj"
 
 # External object files for target Ejercicio4
 Ejercicio4_EXTERNAL_OBJECTS =
 
-Ejercicio4.exe: CMakeFiles/Ejercicio4.dir/Ciencia.cpp.obj
+Ejercicio4.exe: CMakeFiles/Ejercicio4.dir/Ejercicio4.cpp.obj
 Ejercicio4.exe: CMakeFiles/Ejercicio4.dir/build.make
 Ejercicio4.exe: CMakeFiles/Ejercicio4.dir/linkLibs.rsp
 Ejercicio4.exe: CMakeFiles/Ejercicio4.dir/objects1.rsp

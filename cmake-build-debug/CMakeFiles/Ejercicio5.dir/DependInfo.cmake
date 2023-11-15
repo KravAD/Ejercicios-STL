@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/PresentacionSTL.cpp" "CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.obj" "gcc" "CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.obj.d"
+  "C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Ejercicio5.cpp" "CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.obj" "gcc" "CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

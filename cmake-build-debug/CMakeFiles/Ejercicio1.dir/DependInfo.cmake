@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Utilización completa de un espacio de nombres/Ejercicio1.cpp" "CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj" "gcc" "CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj.d"
+  "C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Ejercicio1.cpp" "CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj" "gcc" "CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

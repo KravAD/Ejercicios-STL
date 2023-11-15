@@ -105,50 +105,6 @@
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Ejercicio3">
-				<Option output="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Ejercicio3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ejercicio3"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ejercicio3/fast">
-				<Option output="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Ejercicio3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ejercicio3/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="Ejercicio4">
 				<Option output="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Ejercicio4.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug"/>
@@ -237,6 +193,50 @@
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Ejercicio3">
+				<Option output="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Ejercicio3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ejercicio3"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ejercicio3/fast">
+				<Option output="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Ejercicio3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ejercicio3/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug"/>
 				<Option type="4"/>
@@ -258,20 +258,20 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Ciencia.cpp">
-			<Option target="Ejercicio4"/>
+		<Unit filename="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Ejercicio1.cpp">
+			<Option target="Ejercicio1"/>
 		</Unit>
-		<Unit filename="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Espacio de nombres repartido entre diferentes archivos/main.cpp">
+		<Unit filename="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Ejercicio2.cpp">
 			<Option target="Ejercicio2"/>
 		</Unit>
-		<Unit filename="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/PresentacionSTL.cpp">
-			<Option target="Ejercicio5"/>
-		</Unit>
-		<Unit filename="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Relación entre clase y espacio de nombres/circulo.cpp">
+		<Unit filename="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Ejercicio3.cpp">
 			<Option target="Ejercicio3"/>
 		</Unit>
-		<Unit filename="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Utilización completa de un espacio de nombres/Ejercicio1.cpp">
-			<Option target="Ejercicio1"/>
+		<Unit filename="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Ejercicio4.cpp">
+			<Option target="Ejercicio4"/>
+		</Unit>
+		<Unit filename="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Ejercicio5.cpp">
+			<Option target="Ejercicio5"/>
 		</Unit>
 		<Unit filename="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

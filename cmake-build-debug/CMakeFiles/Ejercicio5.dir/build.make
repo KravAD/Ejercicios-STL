@@ -68,28 +68,28 @@ include CMakeFiles/Ejercicio5.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ejercicio5.dir/flags.make
 
-CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.obj: CMakeFiles/Ejercicio5.dir/flags.make
-CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.obj: C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/PresentacionSTL.cpp
-CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.obj: CMakeFiles/Ejercicio5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.obj -MF CMakeFiles\Ejercicio5.dir\PresentacionSTL.cpp.obj.d -o CMakeFiles\Ejercicio5.dir\PresentacionSTL.cpp.obj -c C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\PresentacionSTL.cpp
+CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.obj: CMakeFiles/Ejercicio5.dir/flags.make
+CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.obj: C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Ejercicio5.cpp
+CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.obj: CMakeFiles/Ejercicio5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.obj -MF CMakeFiles\Ejercicio5.dir\Ejercicio5.cpp.obj.d -o CMakeFiles\Ejercicio5.dir\Ejercicio5.cpp.obj -c C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Ejercicio5.cpp
 
-CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\PresentacionSTL.cpp > CMakeFiles\Ejercicio5.dir\PresentacionSTL.cpp.i
+CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Ejercicio5.cpp > CMakeFiles\Ejercicio5.dir\Ejercicio5.cpp.i
 
-CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\PresentacionSTL.cpp -o CMakeFiles\Ejercicio5.dir\PresentacionSTL.cpp.s
+CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Ejercicio5.cpp -o CMakeFiles\Ejercicio5.dir\Ejercicio5.cpp.s
 
 # Object files for target Ejercicio5
 Ejercicio5_OBJECTS = \
-"CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.obj"
+"CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.obj"
 
 # External object files for target Ejercicio5
 Ejercicio5_EXTERNAL_OBJECTS =
 
-Ejercicio5.exe: CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.obj
+Ejercicio5.exe: CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.obj
 Ejercicio5.exe: CMakeFiles/Ejercicio5.dir/build.make
 Ejercicio5.exe: CMakeFiles/Ejercicio5.dir/linkLibs.rsp
 Ejercicio5.exe: CMakeFiles/Ejercicio5.dir/objects1.rsp

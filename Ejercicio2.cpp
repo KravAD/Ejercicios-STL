@@ -1,8 +1,8 @@
 #include <iostream>
-#include "Triangulo.cpp"
-#include "Ciruculo.cpp"
-#include "Hexagono.cpp"
-#include "Trapecio.cpp"
+#include "Complemento Ejercicio2//Triangulo.cpp"
+#include "Complemento Ejercicio2/Ciruculo.cpp"
+#include "Complemento Ejercicio2/Hexagono.cpp"
+#include "Complemento Ejercicio2/Trapecio.cpp"
 int main() {
     std::cout << "El area del triangulo es: " << Geometria::calcularAreaTriangulo(2, 4) <<" metros cuadrados" << std::endl;
     std::cout << "El area del circulo es: " << Geometria::calcularAreaCirculo(5) << " metros cuadrados" << std::endl;

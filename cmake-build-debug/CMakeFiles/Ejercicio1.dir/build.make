@@ -68,28 +68,28 @@ include CMakeFiles/Ejercicio1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ejercicio1.dir/flags.make
 
-CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj: CMakeFiles/Ejercicio1.dir/flags.make
-CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj: C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Utilización\ completa\ de\ un\ espacio\ de\ nombres/Ejercicio1.cpp
-CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj: CMakeFiles/Ejercicio1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj -MF CMakeFiles\Ejercicio1.dir\Utilización_completa_de_un_espacio_de_nombres\Ejercicio1.cpp.obj.d -o CMakeFiles\Ejercicio1.dir\Utilización_completa_de_un_espacio_de_nombres\Ejercicio1.cpp.obj -c "C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Utilización completa de un espacio de nombres\Ejercicio1.cpp"
+CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj: CMakeFiles/Ejercicio1.dir/flags.make
+CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj: C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Ejercicio1.cpp
+CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj: CMakeFiles/Ejercicio1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj -MF CMakeFiles\Ejercicio1.dir\Ejercicio1.cpp.obj.d -o CMakeFiles\Ejercicio1.dir\Ejercicio1.cpp.obj -c C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Ejercicio1.cpp
 
-CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Utilización completa de un espacio de nombres\Ejercicio1.cpp" > CMakeFiles\Ejercicio1.dir\Utilización_completa_de_un_espacio_de_nombres\Ejercicio1.cpp.i
+CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Ejercicio1.cpp > CMakeFiles\Ejercicio1.dir\Ejercicio1.cpp.i
 
-CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Utilización completa de un espacio de nombres\Ejercicio1.cpp" -o CMakeFiles\Ejercicio1.dir\Utilización_completa_de_un_espacio_de_nombres\Ejercicio1.cpp.s
+CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Ejercicio1.cpp -o CMakeFiles\Ejercicio1.dir\Ejercicio1.cpp.s
 
 # Object files for target Ejercicio1
 Ejercicio1_OBJECTS = \
-"CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj"
+"CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj"
 
 # External object files for target Ejercicio1
 Ejercicio1_EXTERNAL_OBJECTS =
 
-Ejercicio1.exe: CMakeFiles/Ejercicio1.dir/Utilización_completa_de_un_espacio_de_nombres/Ejercicio1.cpp.obj
+Ejercicio1.exe: CMakeFiles/Ejercicio1.dir/Ejercicio1.cpp.obj
 Ejercicio1.exe: CMakeFiles/Ejercicio1.dir/build.make
 Ejercicio1.exe: CMakeFiles/Ejercicio1.dir/linkLibs.rsp
 Ejercicio1.exe: CMakeFiles/Ejercicio1.dir/objects1.rsp

@@ -68,28 +68,28 @@ include CMakeFiles/Ejercicio2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ejercicio2.dir/flags.make
 
-CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.obj: CMakeFiles/Ejercicio2.dir/flags.make
-CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.obj: C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Espacio\ de\ nombres\ repartido\ entre\ diferentes\ archivos/main.cpp
-CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.obj: CMakeFiles/Ejercicio2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.obj -MF CMakeFiles\Ejercicio2.dir\Espacio_de_nombres_repartido_entre_diferentes_archivos\main.cpp.obj.d -o CMakeFiles\Ejercicio2.dir\Espacio_de_nombres_repartido_entre_diferentes_archivos\main.cpp.obj -c "C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Espacio de nombres repartido entre diferentes archivos\main.cpp"
+CMakeFiles/Ejercicio2.dir/Ejercicio2.cpp.obj: CMakeFiles/Ejercicio2.dir/flags.make
+CMakeFiles/Ejercicio2.dir/Ejercicio2.cpp.obj: C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Ejercicio2.cpp
+CMakeFiles/Ejercicio2.dir/Ejercicio2.cpp.obj: CMakeFiles/Ejercicio2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio2.dir/Ejercicio2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ejercicio2.dir/Ejercicio2.cpp.obj -MF CMakeFiles\Ejercicio2.dir\Ejercicio2.cpp.obj.d -o CMakeFiles\Ejercicio2.dir\Ejercicio2.cpp.obj -c C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Ejercicio2.cpp
 
-CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Espacio de nombres repartido entre diferentes archivos\main.cpp" > CMakeFiles\Ejercicio2.dir\Espacio_de_nombres_repartido_entre_diferentes_archivos\main.cpp.i
+CMakeFiles/Ejercicio2.dir/Ejercicio2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ejercicio2.dir/Ejercicio2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Ejercicio2.cpp > CMakeFiles\Ejercicio2.dir\Ejercicio2.cpp.i
 
-CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Espacio de nombres repartido entre diferentes archivos\main.cpp" -o CMakeFiles\Ejercicio2.dir\Espacio_de_nombres_repartido_entre_diferentes_archivos\main.cpp.s
+CMakeFiles/Ejercicio2.dir/Ejercicio2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ejercicio2.dir/Ejercicio2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\krave\OneDrive\Documentos\GitHub\Ejercicios-STL\Ejercicio2.cpp -o CMakeFiles\Ejercicio2.dir\Ejercicio2.cpp.s
 
 # Object files for target Ejercicio2
 Ejercicio2_OBJECTS = \
-"CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.obj"
+"CMakeFiles/Ejercicio2.dir/Ejercicio2.cpp.obj"
 
 # External object files for target Ejercicio2
 Ejercicio2_EXTERNAL_OBJECTS =
 
-Ejercicio2.exe: CMakeFiles/Ejercicio2.dir/Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.obj
+Ejercicio2.exe: CMakeFiles/Ejercicio2.dir/Ejercicio2.cpp.obj
 Ejercicio2.exe: CMakeFiles/Ejercicio2.dir/build.make
 Ejercicio2.exe: CMakeFiles/Ejercicio2.dir/linkLibs.rsp
 Ejercicio2.exe: CMakeFiles/Ejercicio2.dir/objects1.rsp

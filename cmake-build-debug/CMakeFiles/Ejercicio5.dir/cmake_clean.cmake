@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.obj"
-  "CMakeFiles/Ejercicio5.dir/PresentacionSTL.cpp.obj.d"
+  "CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.obj"
+  "CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.obj.d"
   "Ejercicio5.exe"
   "Ejercicio5.exe.manifest"
   "Ejercicio5.pdb"
