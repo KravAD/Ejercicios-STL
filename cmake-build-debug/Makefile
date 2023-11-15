@@ -180,29 +180,29 @@ Ejercicio5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio5.dir\build.make CMakeFiles/Ejercicio5.dir/build
 .PHONY : Ejercicio5/fast
 
-Declaración_de_subespacios_de_nombres/Ciencia.obj: Declaración_de_subespacios_de_nombres/Ciencia.cpp.obj
-.PHONY : Declaración_de_subespacios_de_nombres/Ciencia.obj
+Ciencia.obj: Ciencia.cpp.obj
+.PHONY : Ciencia.obj
 
 # target to build an object file
-Declaración_de_subespacios_de_nombres/Ciencia.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/Declaración_de_subespacios_de_nombres/Ciencia.cpp.obj
-.PHONY : Declaración_de_subespacios_de_nombres/Ciencia.cpp.obj
+Ciencia.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/Ciencia.cpp.obj
+.PHONY : Ciencia.cpp.obj
 
-Declaración_de_subespacios_de_nombres/Ciencia.i: Declaración_de_subespacios_de_nombres/Ciencia.cpp.i
-.PHONY : Declaración_de_subespacios_de_nombres/Ciencia.i
+Ciencia.i: Ciencia.cpp.i
+.PHONY : Ciencia.i
 
 # target to preprocess a source file
-Declaración_de_subespacios_de_nombres/Ciencia.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/Declaración_de_subespacios_de_nombres/Ciencia.cpp.i
-.PHONY : Declaración_de_subespacios_de_nombres/Ciencia.cpp.i
+Ciencia.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/Ciencia.cpp.i
+.PHONY : Ciencia.cpp.i
 
-Declaración_de_subespacios_de_nombres/Ciencia.s: Declaración_de_subespacios_de_nombres/Ciencia.cpp.s
-.PHONY : Declaración_de_subespacios_de_nombres/Ciencia.s
+Ciencia.s: Ciencia.cpp.s
+.PHONY : Ciencia.s
 
 # target to generate assembly for a file
-Declaración_de_subespacios_de_nombres/Ciencia.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/Declaración_de_subespacios_de_nombres/Ciencia.cpp.s
-.PHONY : Declaración_de_subespacios_de_nombres/Ciencia.cpp.s
+Ciencia.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/Ciencia.cpp.s
+.PHONY : Ciencia.cpp.s
 
 Espacio_de_nombres_repartido_entre_diferentes_archivos/main.obj: Espacio_de_nombres_repartido_entre_diferentes_archivos/main.cpp.obj
 .PHONY : Espacio_de_nombres_repartido_entre_diferentes_archivos/main.obj
@@ -313,9 +313,9 @@ help:
 	@echo ... Ejercicio3
 	@echo ... Ejercicio4
 	@echo ... Ejercicio5
-	@echo ... Declaración_de_subespacios_de_nombres/Ciencia.obj
-	@echo ... Declaración_de_subespacios_de_nombres/Ciencia.i
-	@echo ... Declaración_de_subespacios_de_nombres/Ciencia.s
+	@echo ... Ciencia.obj
+	@echo ... Ciencia.i
+	@echo ... Ciencia.s
 	@echo ... Espacio_de_nombres_repartido_entre_diferentes_archivos/main.obj
 	@echo ... Espacio_de_nombres_repartido_entre_diferentes_archivos/main.i
 	@echo ... Espacio_de_nombres_repartido_entre_diferentes_archivos/main.s

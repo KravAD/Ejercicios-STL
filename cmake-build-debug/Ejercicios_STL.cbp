@@ -258,7 +258,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Declaración de subespacios de nombres/Ciencia.cpp">
+		<Unit filename="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Ciencia.cpp">
 			<Option target="Ejercicio4"/>
 		</Unit>
 		<Unit filename="C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/Espacio de nombres repartido entre diferentes archivos/main.cpp">
