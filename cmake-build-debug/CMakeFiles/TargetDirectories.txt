@@ -1,0 +1,4 @@
+C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/CMakeFiles/Ejercicios_STL.dir
+C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/CMakeFiles/Ejercicio1.dir
+C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/krave/OneDrive/Documentos/GitHub/Ejercicios-STL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
